@@ -36,7 +36,7 @@ id,tipo,monto
 1,Crédito,100.00
 2,Débito,50.00
 3,Crédito,200.00
-
+```
 ---
 
 ### Cómo ejecutar el programa
@@ -45,16 +45,16 @@ Abre una terminal y navega hasta la carpeta del proyecto.
 
 Ejecuta el siguiente comando:
 
-python main.py
+```python main.py```
 
 Si todo está correcto, verás un reporte como el siguiente en la terminal:
 
-Reporte de Transacciones
+```Reporte de Transacciones
 ---------------------------------------------
 Balance Final: 325.00
 Transacción de Mayor Monto: ID 3 - 200.00
 Conteo de Transacciones: Crédito: 3 Débito: 2
-
+```
 ---
 
 ### Notas adicionales
@@ -122,16 +122,16 @@ Esta lógica fue implementada en la función `calcular_balance()`.
 
 La estructura del proyecto es simple y está organizada de manera que cualquier persona pueda entenderla fácilmente.
 Todos los archivos se encuentran en la raíz del proyecto.
-cli-interbank/
+```cli-interbank/
  ├── main.py # Archivo principal del programa
  ├── data.csv # Archivo de entrada con transacciones bancarias
  └── README.md # Documentación del proyecto
-
+```
 ---
 
 ### Descripción de archivos
 
-- *main.py*  
+- ***main.py***  
   Contiene toda la lógica del programa. Incluye:
   - Lectura y validación del archivo CSV
   - Cálculo del balance final
@@ -139,11 +139,11 @@ cli-interbank/
   - Conteo de transacciones por tipo
   - Impresión del reporte en consola
 
-- *data.csv*  
+- ***data.csv***
   Archivo con los datos de entrada. Cada línea representa una transacción con formato:  
-  'id,tipo,monto'
+  ```id,tipo,monto```
 
-- *README.md*  
+- ***README.md***  
   Documentación que explica el propósito del proyecto, cómo ejecutarlo, decisiones de diseño y estructura general.
 
 ---
@@ -152,7 +152,7 @@ cli-interbank/
 
 Este proyecto fue desarrollado por:
 
-Luis Alberto Felix Rosas
+**Luis Alberto Felix Rosas**
 Ingeniero de Sistemas
 Lima, Perú
 luis.felix.rosas@gmail.com
